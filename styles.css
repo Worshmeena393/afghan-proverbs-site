@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #8b4513;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: -10px;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #daa520;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro, .featured-proverbs, .gallery, .detail, .interactive-wall {
+  padding: 2rem;
+  background-color: #fff8dc;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+input, textarea, button {
+  width: 60%;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #daa520;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b8860b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.proverb-card {
+  background-color: #fff;
+  border: 1px solid #daa520;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.proverb-card:hover {
+  transform: scale(1.05);
+  background-color: #fffaf0;
+}
+
+.translation {
+  font-weight: bold;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.1rem;
+}
+
+.meaning {
+  opacity
